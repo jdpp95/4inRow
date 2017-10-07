@@ -1,0 +1,3 @@
+[submodule "unalcol"]
+	path = unalcol
+	url = https://github.com/jgomezpe/unalcol
