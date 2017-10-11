@@ -15,7 +15,7 @@ import unalcol.agents.examples.games.fourinrow.StochasticModels.UtilityAgent;
 public class FourInRowMain {
   public static void main( String[] argv ){
     // Reflection
-    Agent w_agent = new Agent( new HackermenAgentProgram("white") );
+    Agent w_agent = new Agent( new DummyFourInRowAgentProgram("white") );
     Agent b_agent = new Agent( new UtilityAgent("black") );
     FourInRowMainFrame frame = new FourInRowMainFrame( w_agent, b_agent );
     frame.setVisible(true);
